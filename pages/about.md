@@ -1,15 +1,13 @@
 ---
 layout: page
-title: About
+title: Nometnes
 permalink: "/about/"
-image: assets/images/screenshot.png
+image: assets/images/exp_car.jpg
 ---
 
-This website is a demonstration to see **Affiliates Jekyll theme** in action. 
+**Izdzīvošanas pamatiemaņu kurss** in action. 
 
-The theme is compatible with Github pages. This demo is created with Github Pages and hosted with Github. 
+Piedzīvojumu nometne **"Expedition Camp"** aicina Jūs pievienoties mūsu izdzīvošanas pamatiemaņu kursam, kur apgūsiet būtiskas prasmes dzīvot un izdzīvot brīvā dabā. Tas ir izaicinājums un mācību piedzīvojums vienā, kas atklās dabas noslēpumus un mācīs Jums, kā būt gatavam jebkurā situācijā. Pievienojies mums un kļūsti par meistaru izdzīvošanā!
 
-Everything is ready for your quick setup: Blog, Categories, About, Privacy Policy, Terms of Use, Contact form, Mailchimp
-
-[Get it here](https://bootstrapstarter.com/jekyll-theme-memoirs/)
+[Pieteikties]({{ site.baseurl }}/contact/)
 

@@ -5,16 +5,30 @@ permalink: "/contact/"
 comments: false
 ---
 
-<form action="https://formspree.io/{{site.email}}" method="POST">    
-<p class="mb-4">Thank you for your interest in getting in touch with us. Please send your message here. We will reply as soon as possible!</p>
-<div class="form-group row">
-<div class="col-md-6">
-<input class="form-control" type="text" name="name" placeholder="Name*" required>
-</div>
-<div class="col-md-6">
-<input class="form-control" type="email" name="_replyto" placeholder="E-mail Address*" required>
-</div>
-</div>
-<textarea rows="8" class="form-control mb-3" name="message" placeholder="Message*" required></textarea>    
-<input class="btn btn-dark" type="submit" value="Send">
+<form class="mt-5" action="https://formspree.io/f/xoqobplz" method="POST">
+    <p class="mb-4">Paldies par interesi pieteikties nometnei. </br> <strong> Reģistrējieties </strong> tūlīt un mēs sazināsimies ar Jums tuvākajā laikā!</p>
+    <div class="form-group row">
+        <div class="col-md-6">
+            <input class="form-control" type="text" name="name" placeholder="Vārds*" required>
+        </div>
+        <div class="col-md-6">
+            <input class="form-control" type="email" name="_replyto" placeholder="E-pasta Adrese*" required>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="camp-dropdown">Izvēlieties nometni:</label>
+        <select class="form-control" id="camp-dropdown" name="camp">
+            <option value="">Izvēlēties Nometni</option>
+            <option value="survival-kurss">Izdzīvošanas pamatiemaņu kurss</option>
+            <option value="survival-basics">Izdzīvošanas Pamati</option>
+            <option value="mountain-adventure">Kalnu Piedzīvojums</option>
+            <option value="forest-explorer">Meža Izzinātājs</option>
+            <!-- Pievienojiet vairāk opciju šeit -->
+        </select>
+    </div>
+    <textarea rows="8" class="form-control mb-3" name="message" placeholder="Ziņa*" required></textarea>
+    <input class="btn btn-dark" type="submit" value="Sūtīt">
 </form>
+
+<!--<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScmrweKgHaZhs7QuEOMz2VIozhzfIpQCuNzMcrn1N3lRR7p2w/viewform?embedded=true" width="640" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>-->
+

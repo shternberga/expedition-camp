@@ -30,6 +30,47 @@ body {
 .serif-font {
     font-family:PT Serif;
 }
+.old-paper-border {
+  display: inline-block;
+  padding: 10px; /* Adjust as needed */
+  background: #f8f8f8; /* Old paper color, adjust as needed */
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.2); /* Adds a shadow for depth */
+  border: 1px solid #e0e0e0; /* Adds a border */
+  position: relative;
+  overflow: hidden; /* Ensures the pseudo-element does not exceed the parent's boundary */
+  transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition for shadow and transform */
+}
+
+.old-paper-border:hover {
+  box-shadow: 10px 10px 20px rgba(0,0,0,0.3); /* Darker and larger shadow on hover */
+  transform: translateY(-5px); /* Moves the element up slightly on hover */
+}
+
+.old-paper-border::before {
+  content: '';
+  position: absolute;
+  top: -5px; /* Adjust to match the effect you're going for */
+  right: -5px; /* Adjust to match the effect you're going for */
+  bottom: -5px; /* Adjust to match the effect you're going for */
+  left: -5px; /* Adjust to match the effect you're going for */
+  pointer-events: none; /* Ensures the pseudo-element does not interfere with mouse events */
+  background: url('path-to-your-border-image.png'); /* Path to a repeating border image */
+  opacity: 0.5; /* Adjust as needed */
+}
+
+.bw-filter {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  filter: sepia(0.4) brightness(1.2) contrast(0.8); /* Gives the image an old-photograph effect */
+  transition: transform 0.3s ease; /* Smooth transition for transform */
+}
+
+.bw-filter:hover {
+  transform: scale(1.05); /* Slightly enlarges the image on hover */
+}
+
+
 @media (max-width: 1366px) {
     .container-xl, .container-lg, .container-md, .container-sm, .container {
         width:90%;
@@ -135,8 +176,8 @@ small, .small {
 /* Pages
 ================================================== */
 .hero {
-    background: #fdd93d;
-    padding: 5rem 5rem;
+    //background: #fdd93d;
+    padding: 6rem 0 3rem 0;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -389,6 +430,11 @@ ul.tags li a:hover {
 	margin-bottom:1.2rem;
 }
 
+.btn-woods {
+  color: #fff;
+  background-color: #9B9587!important;
+  border-color: #9B9587!important;
+}
 
 .btn.follow {
 	border-color:#ccc;
@@ -522,7 +568,7 @@ background-color: #fff;
 }
 .sidebar #mc_embed_signup .button {
     width: 100% !important;
-    background: #3d61fd !important;
+    background: #B49675 !important;
     height: auto;
     padding: 6px 20px;
     font-weight: 600;
@@ -610,6 +656,6 @@ span.navigation:before {
 }
 
 .hover-opacity:hover {
-    transition: all.3s;
-    opacity:.8;
+    transition: all 0.3s;
+    opacity:0.8;
 }
