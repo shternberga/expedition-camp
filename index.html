@@ -15,7 +15,10 @@ background: '/img/bg-index.jpg'
 <!--      <a href="{{site.baseurl}}/about" class="btn btn-dark text-white px-5 btn-lg">About me</a>-->
 <!--    </div>-->
     <div class="col-md-12 text-right pl-0 pl-lg-4">
-      <img class="intro" height="500" src="{{site.baseurl}}/assets/images/expedition.png">
+      <picture>
+        <source media="(max-width: 768px)" srcset="{{site.baseurl}}/assets/images/expedition-mobile.png">
+        <img class="intro img-hero" src="{{site.baseurl}}/assets/images/expedition.png" alt="Expedition Image">
+      </picture>
     </div>
   </div>
 </div>

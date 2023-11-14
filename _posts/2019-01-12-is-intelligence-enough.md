@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Is Intelligence Enough"
+title:  "Pēc pasūtījuma"
 author: sal
 categories: [ Jekyll, tutorial ]
 image: assets/images/pasutijums.png

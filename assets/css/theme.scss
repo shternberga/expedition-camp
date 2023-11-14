@@ -66,6 +66,11 @@ body {
   transition: transform 0.3s ease; /* Smooth transition for transform */
 }
 
+img .img-hero {
+  max-width: 350%!important;
+  height: auto;
+}
+
 .bw-filter:hover {
   transform: scale(1.05); /* Slightly enlarges the image on hover */
 }

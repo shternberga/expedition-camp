@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Markdown Example"
+title:  "Nometnes bērniem"
 author: john
 categories: [ Jekyll, tutorial ]
 image: assets/images/nometnes.png
