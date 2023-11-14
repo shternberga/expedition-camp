@@ -78,11 +78,12 @@ gtag('config', '{{site.ganalytics}}');
             <ul class="navbar-nav ml-auto font-weight-bold d-flex align-items-center">
               {% for item in site.data.menus.topmenu %}
               <li class="nav-item">
-                <a class="nav-link px-3 {% if item.class %}{{item.class}}{% endif %}" href="{% unless item.external %}{{site.baseurl}}/{% endunless %}{{item.url}}" alt="{{item.title}}">{{item.title}}</a>
+                <a class="nav-link px-3 {% if page.url == item.url %}active{% endif %} {% if item.class %}{{ item.class }}{% endif %}" href="{% unless item.external %}{{ site.baseurl }}/{% endunless %}{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a>
               </li>
               {% endfor %}
             </ul>
           </div>
+          
 
         </div>
       </nav>
@@ -116,7 +117,7 @@ gtag('config', '{{site.ganalytics}}');
     {% endfor %}
     </ul>
     <div class="copyright small">
-        Autortiesības © 2023 Expedition.Camp
+        Autortiesības © 2023 Expedition.Camp Talr. +37129526301
     </div>
 </footer>
 

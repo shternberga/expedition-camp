@@ -600,6 +600,12 @@ background-color: #fff;
 
 img {max-width:100%;height: auto;}
 
+.nav-link.active {
+    color: #fdd93d; /* Replace #yourColor with the color you want for active menu items */
+    font-weight: bold;
+    /* Add other styling as needed */
+  }
+
 .bottompagination span.navigation a {
 	background: #fdd93d;
     color: #333;
