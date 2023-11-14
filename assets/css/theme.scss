@@ -66,6 +66,14 @@ body {
   transition: transform 0.3s ease; /* Smooth transition for transform */
 }
 
+.bw-team-filter {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    filter: sepia(0.4) brightness(1) contrast(0.8); /* Gives the image an old-photograph effect */
+    transition: transform 0.3s ease; /* Smooth transition for transform */
+}
+
 img .img-hero {
   max-width: 350%!important;
   height: auto;
