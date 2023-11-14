@@ -8,10 +8,10 @@ topmenu:
   url: ""
 
 - title: Komanda
-  url: ""
+  url: "komanda/"
 
 - title: Nometnes
-  url: "about/"
+  url: "camps/"
 
 - title: Kontakti
   url: "contact/"

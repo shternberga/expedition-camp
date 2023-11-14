@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Nometnes
-permalink: "/about/"
+permalink: "/camps/"
 image: assets/images/exp_car.jpg
 ---
 
