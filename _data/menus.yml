@@ -28,7 +28,7 @@ footermenu:
   url: ""
 
 - title: Pakalpojumi
-  url: "privacy-policy/"
+  url: "#pakalpojumi"
 
 - title: Kontakti
   url: "contact/"
